@@ -14,7 +14,7 @@ const AboutMeComponent=()=>{
           className='col-span-12 lg:col-span-6 rounded-full'
         >
           <Image
-            className='w-full h-auto object-cover rounded-full'
+            className='w-full h-auto object-contain rounded-full'
             src={aboutMe}
             alt=''
           />

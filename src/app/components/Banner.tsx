@@ -2,7 +2,6 @@
 import { gsap, Power1 } from "gsap";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import ContactNew from "./ContactNew";
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import next from "/public/images/nexticon.jpeg";
