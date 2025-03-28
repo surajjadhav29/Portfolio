@@ -172,7 +172,7 @@ const SkillComponent: React.FC = () => {
             </div>
           </div>
         </div>
-        <h2 className='text-2xl underline mt-10'>Databases:</h2>
+        {/* <h2 className='text-2xl underline mt-10'>Databases:</h2>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
           <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
@@ -204,7 +204,7 @@ const SkillComponent: React.FC = () => {
               <Image src={Firebase} alt=''  className="h-full w-ful rounded-full" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <h2 className='text-2xl underline mt-10'>CMS:</h2>
         <div className="grid lg:grid-cols-2 grid-cols-1 ">

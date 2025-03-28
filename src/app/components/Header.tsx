@@ -94,9 +94,9 @@ const Header: React.FC = () => {
             <li className="text-white mx-10 my-6 relative font-semibold">
               <a href="#projects">Project</a>
             </li>
-            <li className="text-white mx-10 my-6 relative font-semibold">
+            {/* <li className="text-white mx-10 my-6 relative font-semibold">
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -143,9 +143,9 @@ const Header: React.FC = () => {
           <li className="text-white mx-10 relative">
             <a href="#projects" onClick={handleCloseMenu}>Project</a>
           </li>
-          <li className="text-white mx-10 relative">
+          {/* <li className="text-white mx-10 relative">
             <a href="#contact" onClick={handleCloseMenu}>Contact</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
