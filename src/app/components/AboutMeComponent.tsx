@@ -1,5 +1,4 @@
 import { FaDownload } from "react-icons/fa";
-import ProgressBar from "./ProgressBar";
 import Button from "./Button";
 import Image from "next/image";
 import aboutMe from "/public/images/profile.jpeg";
@@ -45,7 +44,7 @@ const AboutMeComponent = () => {
                     height={24}
                   />
                 }
-                link='/resume/'
+                link='/resume/suraj-jadhav-Resume.pdf'
               />
             </div>
           </div>
