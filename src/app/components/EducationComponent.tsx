@@ -2,7 +2,11 @@ import { HiAcademicCap, HiBookOpen, HiBriefcase } from "react-icons/hi"
 
 const EducationComponent=()=>{
     return(
-        <section className="my-journey py-6 bg-gray-50">
+        <section className="my-journey py-6 bg-gray-50" style={{
+            backgroundImage: "url('/images/aboutusback.png')",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}>
         <div data-aos="fade-up">
             <h1 className="relative text-5xl text-center">My Journey</h1>
             <div className="flex justify-center mt-2 mb-14">

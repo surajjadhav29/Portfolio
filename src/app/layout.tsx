@@ -26,17 +26,14 @@ const lufga = localFont({
     { path: "/fonts/LufgaBlack.woff", weight: "900", style: "normal" },
     { path: "/fonts/LufgaBlackItalic.woff", weight: "900", style: "italic" },
   ],
-  variable: "--font-lufga",
+  variable: "--font-poppins",
   weight: "100 900",
 });
-
-// Define metadata
 export const metadata: Metadata = {
-  title: "Suraj- Portfolio",
-  description: "Welcome to Suraj's portfolio website. Explore projects, web development skills, and coding expertise.",
+  title: "Suraj-Portfolio",
+  description: "Welcome to Suraj's portfolio website.Explore projects, web development skills, and coding expertise. , Suraj jadhav",
 };
 
-// Root Layout Component
 export default function RootLayout({
   children,
 }: Readonly<{

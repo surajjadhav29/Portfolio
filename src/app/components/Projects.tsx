@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import project1 from "/public/images/image.png";
-import project2 from "/public/images/projects/Positivus.png";
+import project2 from "/public/images/bulltenimage.png";
 import project3 from "/public/images/projects/Scoop-Home.png";
 import Image, { StaticImageData } from "next/image";
 import Button from "./Button";
@@ -17,29 +17,18 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: "The Good Home Teams",
-    description:
-      "A sleek, modern, and fully responsive website template for restaurants, built with HTML, CSS, Bootstrap, JavaScript, Slick Slider, and AOS. This template includes sections like the menu, about us, testimonials, gallery, and contact information, designed to offer a seamless user experience across all devices.",
+    description:"Collaborated in developing a responsive, dynamic UI using Tailwind CSS, optimizing for mobile-first design and minimizing CSS overhead to enhance performance and scalability.Integrated the frontend with a headless CMS, enabling seamless real-time content updates and dynamic UI management via API for non-technical users.•Implemented Server-Side Rendering (SSR) and Static Site Generation (SSG) to improve SEO, page load times, and contentdelivery efficiency.",
     image: project1,
     liveLink: "https://thegoodhomesteam.com/",
     tags: ["HTML5", "TailwindCss", "JavaScript", "Next.js", "Slick Slider"],
   },
-  // {
-  //   title: "Positivus - Responsive Landing Page",
-  //   description:
-  //     "This is a fully responsive landing page created based on the SMIT - Web Batch 12 Module 1 design on Figma. The project uses HTML, CSS, Bootstrap, and a little bit of JavaScript to deliver a smooth and interactive experience. It adapts seamlessly to different screen sizes, ensuring a great user experience across devices.",
-  //   image: project2,
-  //   liveLink: "https://codewithshabbir.github.io/Positivus/",
-  //   tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
-  // },
-  
-  // {
-  //   title: "Social Scoop - Responsive Landing Page",
-  //   description:
-  //     "This responsive HTML template is designed for digital marketing agencies. It features a hero banner that includes a call-to-action form and navigation menu. The project utilizes custom fonts and FontAwesome icons to enhance the user experience.",
-  //   image: project3,
-  //   liveLink: "https://html-template-task.netlify.app/",
-  //   tags: ["HTML5", "CSS3"],
-  // },
+  {
+    title: "Bullten",
+    description:"Implemented React design patterns like Provider Pattern, to streamline state management and reduce prop drilling, while managing application state with Redux. Implemented a configuration-based UI to enable dynamic adjustments and flexible interface customization based on admin Settings.Wrote comprehensive test cases using Jest and Enzyme, covering diverse scenarios to ensure code quality, functionality, and performance, reducing bugs significantly.",
+    image: project2,
+    liveLink: "https://bullten.consociate.co.in/",
+    tags: ["HTML5", "TailwindCss", "JavaScript", "Next.js", "Slick Slider"],
+  },
 ];
 
 const Projects: React.FC = () => {
@@ -58,7 +47,7 @@ const Projects: React.FC = () => {
             <h2 className="text-xl md:text-3xl font-bold text-white">
               {project.title}
             </h2>
-            <p className="text-sm mt-2 text-gray-200 mb-2">
+            <p className="text-lg mt-2 text-gray-200 mb-2">
               {project.description}
             </p>
             <div className="flex flex-wrap gap-2">

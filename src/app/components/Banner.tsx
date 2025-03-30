@@ -65,8 +65,8 @@ const Banner = () => {
 
   return (
     <>
-      <div className='overflow-hidden bg-black sm1:pt-16 md:pt-0'>
-         <div className='relative border-0 border-red-500 hidden lg:block h-screen'>
+      <div className='bg-black sm1:pt-16 md:pt-0'>
+         <div className='relative  hidden lg:block h-screen'>
           <div className='w-4/5 pt-20 m-auto border-0 border-red-500 opacity-1'id='main'>
             <div className='z-0 text-2xl font-normal tracking-tighter text-white border-0 border-red-500 font-change2'>
               <span className='text-blue-400 border-0 border-red-500 text-3xl absolute top-[17.5rem]'>
@@ -96,7 +96,7 @@ const Banner = () => {
           <div className='absolute z-40 md:w-1/3 lg:w-1/4 xl:w-1/5 text-xl text-white md:left-[5rem] md:top-[31.5rem] lg:top-[34.5rem] xl:top-[38rem] xl:left-[10rem] lg:left-[6.5rem] sm3:w-1/2 sm3:top-[20rem] sm3:left-[5rem]'>
             I am a passionate and creative
             <span className='font-bold text-blue-400'>
-              Full Stack Developer
+               Full Stack Developer
             </span>{" "}
             with experience in creating highly polished Interfaces for the{" "}
             <span className='font-bold text-blue-400'>web</span> & mobile
@@ -166,9 +166,9 @@ const Banner = () => {
   
          <div
           id='home'
-          className=' top-0 h-screen bg-cover border-0 border-red-500 block lg:hidden'>
+          className=' top-0 h-screen bg-cover border-0 border-red-500 block lg:hidden px-4'>
           <div className='w-full pt-36 m-auto border-0 border-red-500 opacity-1'id='main'>
-             <div className='z-0 text-2xl font-normal tracking-tighter text-white border-0 border-red-500 font-change2'>
+             <div className='z-0 text-2xl font-normal tracking-tighter text-white border-0 border-red-500 font-change py-6'>
               <span className='text-blue-400 border-0 border-red-500 text-3xl'>
                 &nbsp;Suraj Jadhav
               </span>
@@ -181,22 +181,21 @@ const Banner = () => {
               WEB
             </div>
            </div>
-          
-            <div className='text-5xl font-extrabold tracking-tighter text-white font-change2 font-stencil2'>
+            <div className='text-5xl font-extrabold tracking-tighter text-white font-change2 font-stencil2 py-4'>
               <span className=''>DEVELOPER</span>
             </div>
           </div>
           <div className='z-40 w-11/12 text-sm text-white border-0 border-red-500  sm1:hidden'>
             Hello,I&apos;m
-            <span className='font-bold text-blue-400'>Suraj Jadhav</span>,a
-            passionate and creative{" "}
+            <span className='font-bold text-blue-400'> Suraj Jadhav</span>,a
+            passionate and creative 
             <span className='font-bold text-blue-400'>
               Full Stack Developer
             </span>{" "}
             with experience in creating highly polished Interfaces for the{" "}
             <span className='font-bold text-blue-400'>web</span> & mobile
           </div>
-          <div className='z-50 flex flex-row  sm1:top-[24rem] sm2:top-[25rem] md:top-[33rem] space-x-2 justify-end right-4'>
+          <div className='z-50 flex flex-row  sm1:top-[24rem] sm2:top-[25rem] md:top-[33rem] space-x-2 justify-end right-4 mt-12'>
             <a
               href='https://github.com/surajjadhav29'
               target='_blank'

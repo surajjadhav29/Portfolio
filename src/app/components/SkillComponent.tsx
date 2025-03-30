@@ -15,9 +15,9 @@ import ProgressBar from './ProgressBar';
 import Image from 'next/image';
 
 
-const SkillComponent: React.FC = () => {
+const   SkillComponent: React.FC = () => {
   return (
-    <section id='skills' className='skills py-6 px-4'>
+    <section id='skills' className='skills mb-6 px-4 '>
     <div>
       <div data-aos='fade-up'>
         <h1 className='relative text-7xl text-center'>My Skills</h1>
@@ -31,7 +31,7 @@ const SkillComponent: React.FC = () => {
           data-aos='fade-right'
           className='w-full grid lg:grid-cols-2 gap-4 grid-cols-1  mb-10 md:mb-0'
         >
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group py-6'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               HTML
             </label>
@@ -46,7 +46,7 @@ const SkillComponent: React.FC = () => {
               <Image src={html} alt='' />
             </div>
           </div>
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group py-6'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               CSS
             </label>
@@ -61,7 +61,7 @@ const SkillComponent: React.FC = () => {
               <Image src={css} alt='' />
             </div>
           </div>
-          <div className='flex w-fll justify-center  gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4'>
+          <div className='flex w-fll justify-center  gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
           <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               JavaScript
             </label>
@@ -72,11 +72,11 @@ const SkillComponent: React.FC = () => {
               </p>
               <ProgressBar percentage={"98%"} width='w-[98%]' />
             </div>
-            <div className='rounded-full'>
+            <div className='hover:rotate-y-90 h-20 w-36 transition-transform duration-300 ease-in-out group-hover:scale-x-[-1]'>
               <Image src={javascript} alt='' className="rounded-full" />
             </div>
           </div>
-          <div className='flex w-fll justify-center  gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4'>
+          <div className='flex w-fll justify-center  gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
           <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               NEXT.js
             </label>
@@ -91,7 +91,7 @@ const SkillComponent: React.FC = () => {
               <Image src={nextjs} alt='' className="rounded-full" />
             </div>
           </div>
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group py-6'>
           <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               TypeScript
             </label>
@@ -107,8 +107,8 @@ const SkillComponent: React.FC = () => {
           </div>
         </div>
         <h2 className='text-2xl underline mt-10'>Version Control:</h2>
-        <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 '>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group py-6'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               Git
             </label>
@@ -141,7 +141,7 @@ const SkillComponent: React.FC = () => {
         </div>
         <h2 className='text-2xl underline mt-4'>Frameworks:</h2>
         <div data-aos='fade-left' className='w-full grid lg:grid-cols-2 grid-cols-1 gap-4'>
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 roundpy-6ed-lg border-[1px] mt-4 group py-6'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               Tailwind CSS
             </label>
@@ -208,7 +208,7 @@ const SkillComponent: React.FC = () => {
 
         <h2 className='text-2xl underline mt-10'>CMS:</h2>
         <div className="grid lg:grid-cols-2 grid-cols-1 ">
-          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group'>
+          <div className='flex w-fll justify-center  items-center gap-3 shadow-lg p-3 rounded-lg border-[1px] mt-4 group py-6'>
             <label className='inline-block mt-3 mb-1 text-4xl  font-bold  lg:w-[390px] w-full text-center group-hover:text-blue-500'>
               Shopify
             </label>
