@@ -10,7 +10,7 @@ const AboutMeComponent = () => {
         <div className='grid grid-cols-12 gap-6'>
           <div
             data-aos='fade-right'
-            className='col-span-12 lg:col-span-6 rounded-full'
+            className='col-span-12  lg:col-span-6 rounded-full'
           >
             <Image
               className='w-full h-full lg:p-20 object-contain rounded-full'
