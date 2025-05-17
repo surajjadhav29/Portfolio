@@ -41,10 +41,7 @@ const Footer: React.FC = () => {
                   <FaPhone className="text-white" />
                   <a className="text-sm text-gray-300" href="tel:+917517208307">+91 7517208307</a>
                 </li>
-{/*                 <li className="flex items-center gap-2 pb-2 leading-6">
-                  <FaGlobe className="text-white" />
-                  <a className="text-sm text-gray-300" href="https://suraj.vercel.app/">My Website</a>
-                </li> */}
+
                 <li className="flex items-center gap-2 pb-2 leading-6">
                   <FaEnvelope className="text-white" />
                   <a className="text-sm text-gray-300" href="mailto:surajjadhav8307@gmail.com">surajjadhav8307@gmail.com
